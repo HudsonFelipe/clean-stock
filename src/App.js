@@ -1,7 +1,9 @@
+import React from 'react';
+import Rts from './routes';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <Rts />
   );
 }
 
