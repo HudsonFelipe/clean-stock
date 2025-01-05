@@ -1,9 +1,9 @@
 import React from 'react';
-import Rts from './routes';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <Rts />
+    <Home />
   );
 }
 
