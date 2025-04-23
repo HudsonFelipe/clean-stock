@@ -6,9 +6,9 @@ import {
   SelectValue,
 } from "../ui/select"
 
-export function DynamicSelect({options, description}) {
+export function DynamicSelect({options, description, onChange}) {
   return (
-    <Select>
+    <Select onValueChange={onChange}>
       <SelectTrigger className="w-[180px]">
         <SelectValue placeholder={description} />
       </SelectTrigger>
