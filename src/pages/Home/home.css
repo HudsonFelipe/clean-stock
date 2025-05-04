@@ -22,9 +22,15 @@
 }
 
 .list-container {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     flex-grow: 1;
     overflow-y: auto;
     max-height: 100vh;
+}
+
+.table-container {
+    width: 50%;
 }
