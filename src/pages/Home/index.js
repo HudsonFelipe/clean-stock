@@ -80,7 +80,7 @@ const Home = () => {
                         />
 
                     {selectedType === 'Data' ? (
-                        <DatePicker onChange={(value) => handleFilterChange(format(new Date(value), "dd/MM/yyyy"))}/>
+                        <DatePicker onChange={(value) => value ? handleFilterChange(format(new Date(value), "dd/MM/yyyy")) : null}/>
                     ) : (
                         <DynamicSelect
                         options={
